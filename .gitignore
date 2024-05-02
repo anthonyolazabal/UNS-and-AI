@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Google creds
+service-principal-gemini-credential.json
+
+# Remove local env 
+.env
