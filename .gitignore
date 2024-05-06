@@ -402,3 +402,6 @@ service-principal-gemini-credential.json
 
 # Remove local env 
 .env
+
+# Mac file
+.DS_Store
