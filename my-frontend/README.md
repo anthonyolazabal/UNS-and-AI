@@ -3,6 +3,16 @@
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+The Frontend rely on local environment variables, you can either create a .env file or if you run the API in a docker image you add the environment variables to it. Here is the list :
+- REACT_APP_BROKER_WS_ADDRESS=<BROKER WEBSOCKET ADDRESS>
+- REACT_APP_WS_PORT=<BROKER WEBSOCKET PORT>
+- REACT_APP_WS_USERNAME=<BROKER WEBSOCKET USERNAME>
+- REACT_APP_WS_PASSWORD=<BROKER WEBSOCKET PASSWORD>
+- REACT_APP_TOPIC_ROOT=<TOPIC ROOT TO SUBSCRIBRE TO>
+- REACT_APP_API_URL=http://localhost:3001
+- REACT_APP_API_KEY=<API TOKEN>
+
 ## Available Scripts
 
 In the project directory, you can run:
